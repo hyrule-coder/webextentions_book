@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Hello Web Extension with option page",
+    "version": "1.0",
+    "description": "manifest.json only",
+    "icons": {
+        "128": "sample_icon_128.png"
+    },
+    "action": {
+        "default_popup": "popup/popup_menu.html"
+    },
+    "options_page": "option_ui/option_ui_page.html"
+}
